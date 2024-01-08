@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>2xDiallo's Rolling Dice Game </title>
+</head>
+
+<body>
+    <h1 style="text-align: center;margin: 20px;">2xDiallo's Rolling Dice Game </h1>
+    <div class="container">
+        <div class="Player0 ">
+           <div class="PlayerHeader">
+            <p>Player 1</p >
+            <h1 class="totalScoreP0">0</h1>
+           </div>
+            <div class="score score0">
+                <pre>Current Score </pre>
+                <p class="scoreP0">0</p>
+            </div>
+        </div>
+        
+        <h1 class="winner hidden position"></h1>
+        <div class="center ">
+            <button style="font-size: small;" class="newGame" onclick="newgame()">🔄 New game</button>
+            <img class="dices hidden" src="" alt="dices">
+            <div class="roolhold">
+                <button class="roll" onclick="displayDiceRoll()">🎲 Roll dice </button>
+                <button class="hold" onclick="holdFnc()">📥 Hold</button>
+            </div>
+
+        </div>
+
+        <div class="Player1 colorDark">
+           <div class="PlayerHeader">
+            <p>Player 2</p>
+            <h1 class="score1 totalScoreP1">0</h1>
+           </div>
+            <div class="score score1">
+                <pre>Current Score </pre>
+                <p class="scoreP1">0</p>
+            </div>
+        </div>
+        
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

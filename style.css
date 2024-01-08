@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+body {
+  background-color: pink;
+  margin: 10px;
+}
+
+.container {
+  margin: auto;
+  padding: 10px;
+  width: 400px;
+  height: 260px;
+  display: flex;
+  gap: 20px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.score {
+  margin-top: 75px;
+  background-color: darkgoldenrod;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+.score p {
+  text-align: center;
+  padding: 5px;
+}
+.PlayerHeader {
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 600;
+}
+.PlayerHeader p {
+  font-size: x-large;
+}
+.PlayerHeader h1 {
+  color: darkgoldenrod;
+  padding-top: 10px;
+}
+.dices {
+  width: 70px;
+  position: relative;
+  left: 10px;
+  top: 40px;
+}
+
+.roolhold {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  padding: 10px;
+  gap: 10px;
+  font-size: small;
+}
+.roolhold button {
+  border-radius: 20px;
+  padding: 2px;
+}
+
+.colorBright {
+  background-color: rgba(184, 134, 11, 0.2);
+}
+
+.hidden {
+  display: none;
+}
+.position {
+  position: absolute;
+  font-size: 15px;
+  left: 200px;
+  top: 140px;
+}
+
+button:hover {
+  background-color: darkgoldenrod;
+}
